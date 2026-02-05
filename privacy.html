@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Política de Privacidad - Arquitectura de IA Industrial">
+    <title>Privacidad | Sergio Arias</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="https://fazil-ai.com/assets/icon.svg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        industrial: {
+                            900: '#102a43',
+                            950: '#010409',
+                        },
+                        accent: {
+                            blue: '#00d2ff',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .glass {
+                @apply bg-white/5 backdrop-blur-md border border-white/10;
+            }
+        }
+        body {
+            background: #010409;
+            color: #d9e2ec;
+        }
+    </style>
+</head>
+
+<body class="font-sans antialiased">
+    <nav class="glass py-4 sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-6 flex justify-between items-center">
+            <a href="index.html" class="font-display font-bold text-lg text-white">SA<span
+                    class="text-accent-blue">.</span></a>
+            <a href="index.html" class="text-sm font-medium hover:text-accent-blue transition-colors">Volver al
+                inicio</a>
+        </div>
+    </nav>
+
+    <main class="max-w-3xl mx-auto px-6 py-20">
+        <h1 class="font-display text-4xl md:text-5xl font-extrabold text-white mb-4">Política de Privacidad</h1>
+        <p class="text-industrial-400 mb-12 border-b border-white/10 pb-4">Última actualización: 5 de febrero, 2026</p>
+
+        <div class="prose prose-invert max-w-none space-y-10 text-industrial-300 leading-relaxed">
+            <section>
+                <p>
+                    En el marco de mi actividad como **Arquitecto de Soluciones de IA**, la privacidad y la integridad
+                    de los datos son pilares fundamentales, especialmente cuando se trata de información técnica y de
+                    salud. Esta política detalla cómo se gestionan tus datos al conectar servicios externos.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold text-white mb-4 flex items-center gap-2">
+                    <span class="w-2 h-2 bg-accent-blue rounded-full"></span>
+                    01. Datos Recopilados (Garmin Connect)
+                </h2>
+                <p>Al autorizar la conexión con Garmin Connect para el caso de estudio de rendimiento ciclista, se
+                    accede a:</p>
+                <ul class="list-disc pl-6 mt-4 space-y-2">
+                    <li><strong>Actividad Física</strong>: Sesiones de entrenamiento, duración, potencia, GPS y métricas
+                        cinemáticas.</li>
+                    <li><strong>Biometría y Salud</strong>: Frecuencia cardíaca (FC), Variabilidad de la FC (HRV) y
+                        datos de sueño.</li>
+                    <li><strong>Perfil Técnico</strong>: Edad, peso y sexo necesarios para cálculos de algoritmos
+                        metabólicos.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold text-white mb-4 flex items-center gap-2">
+                    <span class="w-2 h-2 bg-accent-blue rounded-full"></span>
+                    02. Propósito del Tratamiento
+                </h2>
+                <p>Los datos se procesan exclusivamente para alimentar el motor de razonamiento de la aplicación
+                    demostrativa, permitiendo:</p>
+                <ul class="list-disc pl-6 mt-4 space-y-2">
+                    <li>Cálculo de <strong>Fenotipo Metabólico</strong> (Algoritmos de IA Industrial).</li>
+                    <li>Ajuste dinámico de cargas de entrenamiento.</li>
+                    <li>Análisis de tendencias de rendimiento.</li>
+                </ul>
+                <p class="mt-4 p-4 glass rounded-lg border-l-2 border-accent-blue text-sm italic">
+                    **Confidencialidad Auditada**: Bajo ningún concepto se venden, comparten ni ceden estos datos a
+                    terceros o plataformas publicitarias.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold text-white mb-4 flex items-center gap-2">
+                    <span class="w-2 h-2 bg-accent-blue rounded-full"></span>
+                    03. Derechos y Eliminación
+                </h2>
+                <p>El usuario mantiene el control absoluto sobre sus datos:</p>
+                <ul class="list-disc pl-6 mt-4 space-y-2">
+                    <li><strong>Revocación</strong>: El acceso puede ser anulado en cualquier momento desde Garmin
+                        Connect.</li>
+                    <li><strong>Borrado</strong>: Cualquier solicitud de eliminación definitiva de datos almacenados en
+                        la infraestructura de la app será procesada en un máximo de 30 días contactando a <span
+                            class="text-accent-blue font-mono">sergioarias@fazil-ai.com</span>.</li>
+                </ul>
+            </section>
+
+            <section class="pt-12 border-t border-white/10">
+                <p class="text-sm">FAZIL AI — Arquitectura Industrial con Trazabilidad Cognitiva</p>
+                <p class="font-bold text-white">sergioarias@fazil-ai.com</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="py-12 text-center text-[10px] text-industrial-600 uppercase tracking-widest">
+        &copy; 2026 Sergio Arias Portfolio
+    </footer>
+</body>
+
+</html>
