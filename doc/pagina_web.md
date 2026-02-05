@@ -20,7 +20,7 @@ Aquí tienes una propuesta de redacción estructurada para tu página, diseñada
 
 Mi trayectoria como **Ingeniero Industrial** me enseñó que un sistema solo es valioso si es preciso, escalable y auditable. Tras años liderando la digitalización y simulación en una **Multinacional líder en Ingeniería y Tecnología**, he trasladado esa disciplina al campo de la Inteligencia Artificial.
 
-Hoy, mi foco no es solo "usar" IA, sino desplegar **Empleados Digitales Nucleares**: sistemas autónomos capaces de ejecutar procesos completos de negocio —desde el backend hasta la entrega final— con una precisión que satisface los estándares corporativos más exigentes.
+Hoy, mi foco no es solo "usar" IA, sino desplegar **Empleados Digitales**: sistemas autónomos capaces de ejecutar procesos completos de negocio —desde el backend hasta la entrega final— con una precisión que satisface los estándares corporativos más exigentes.
 
 ---
 

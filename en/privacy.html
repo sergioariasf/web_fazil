@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Fazil AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        industrial: {
+                            50: '#f0f4f8',
+                            100: '#d9e2ec',
+                            200: '#bcccdc',
+                            300: '#9fb3c8',
+                            400: '#829ab1',
+                            500: '#627d98',
+                            600: '#486581',
+                            700: '#334e68',
+                            800: '#243b53',
+                            900: '#102a43',
+                        },
+                        accent: {
+                            blue: '#00d2ff',
+                            purple: '#9d50bb'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background: #010409;
+            color: #d9e2ec;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+
+<body class="font-sans leading-relaxed">
+    <div class="max-w-4xl mx-auto px-6 py-20">
+        <header class="mb-16 border-b border-industrial-800 pb-12">
+            <a href="/en/" class="text-accent-blue hover:text-white transition-colors text-sm mb-8 inline-block">← Back
+                to Portfolio</a>
+            <h1 class="font-display text-4xl font-bold text-white mb-4">Privacy Policy</h1>
+            <p class="text-industrial-400">Last updated: February 5, 2026</p>
+        </header>
+
+        <main class="space-y-12">
+            <section class="glass p-8 rounded-2xl">
+                <h2 class="text-xl font-bold text-white mb-4">1. Information Collection</h2>
+                <p class="text-industrial-300">
+                    Our application connects to the Garmin Health API to retrieve physiological and activity data.
+                    Specific data collected includes:
+                </p>
+                <ul class="list-disc ml-6 mt-4 space-y-2 text-industrial-400">
+                    <li>Biological metrics (VO2Max, heart rate, power zones).</li>
+                    <li>Activity history (cycling workouts, duration, intensity).</li>
+                    <li>Basic profile information provided by Garmin.</li>
+                </ul>
+            </section>
+
+            <section class="glass p-8 rounded-2xl">
+                <h2 class="text-xl font-bold text-white mb-4">2. Use of Information</h2>
+                <p class="text-industrial-300">
+                    The data is used exclusively for:
+                </p>
+                <ul class="list-disc ml-6 mt-4 space-y-2 text-industrial-400">
+                    <li>Generating metabolic and physiological diagnosis using deterministic models and Cognitive AI.
+                    </li>
+                    <li>Dynamic training load planning and optimization.</li>
+                    <li>Displaying performance metrics in the Fazil personal dashboard (Appsmith).</li>
+                </ul>
+                <p class="mt-4 text-accent-blue font-semibold">
+                    We do not sell, rent, or share your data with third parties for advertising purposes.
+                </p>
+            </section>
+
+            <section class="glass p-8 rounded-2xl">
+                <h2 class="text-xl font-bold text-white mb-4">3. Data Storage and Security</h2>
+                <p class="text-industrial-300">
+                    Your data is stored in secure PostgreSQL databases. We implement standard encryption and
+                    access control measures to ensure your information remains confidential and protected.
+                </p>
+            </section>
+
+            <section class="glass p-8 rounded-2xl border-l-4 border-accent-purple">
+                <h2 class="text-xl font-bold text-white mb-4">4. Garmin API Compliance</h2>
+                <p class="text-industrial-300">
+                    This policy is designed to comply with Garmin Health API usage requirements. Users may revoke
+                    application access at any time through their Garmin Connect settings or by contacting us
+                    directly.
+                </p>
+            </section>
+
+            <section class="glass p-8 rounded-2xl">
+                <h2 class="text-xl font-bold text-white mb-4">5. Contact</h2>
+                <p class="text-industrial-300">
+                    For any questions regarding this policy or your data, please contact Sergio Arias via
+                    <a href="https://www.linkedin.com/in/sergio-arias-9843b32b/"
+                        class="text-accent-blue underline">LinkedIn</a>.
+                </p>
+            </section>
+        </main>
+
+        <footer class="mt-20 pt-12 border-t border-industrial-800 text-center text-industrial-500 text-sm">
+            &copy; 2026 Sergio Arias | Fazil AI — Built with Industrial DNA
+        </footer>
+    </div>
+</body>
+
+</html>
